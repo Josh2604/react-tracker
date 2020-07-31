@@ -20,10 +20,7 @@ function LoggerWrapper({children}){
 
 function withLogger(LoggerComponent, options={}){
   return function WithLogger(props){
-    const loggerData = 
-    typeof options.loggerData === 'function'
-      ?  options.loggerData(props)
-      : options.loggerData;
+    const loggerData = options.loggerData;
     return (
       <AppContext.Consumer>
         {
