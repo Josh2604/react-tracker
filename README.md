@@ -66,7 +66,7 @@ Inside the React componenent where you want print messages only include the next
   
   export default withLogger(ExampleComponent, {loggerData: {page: 'Example Component'}});
 ```
-## Level of logs
+## Logs Types
 After include the Logger inside the component you have available in props `props.log(message ,values ,level_log');` for use it just call the function `log` and pass the arguments.
 * message: The message that you want print in the web browser console.
 * values: You can print objects or any data type supported by Javascript
