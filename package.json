@@ -1,0 +1,24 @@
+{
+  "name": "react-tracker",
+  "version": "1.0.0",
+  "description": "Logger and tracker for React",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josh2604/react-tracker.git"
+  },
+  "keywords": [
+    "react",
+    "logger",
+    "tracker"
+  ],
+  "author": "github.com/Josh2604",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josh2604/react-tracker/issues"
+  },
+  "homepage": "https://github.com/Josh2604/react-tracker#readme"
+}
