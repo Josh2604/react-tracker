@@ -1,5 +1,5 @@
 {
-  "name": "react-tracker",
+  "name": "react-logs-tracker",
   "version": "1.0.0",
   "description": "Logger and tracker for React",
   "main": "src/index.js",
